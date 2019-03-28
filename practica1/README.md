@@ -13,9 +13,9 @@ La instalación de nuestra máquina virtual viene explicado perfectamente paso a
 
 ### 3. Editar interfaces
 
-Lo siguiente que tendremos que hacer una vez instalado Ubuntu server es editar la interface que están en la carpeta */etc/network/interfaces* . Podemos utilizar la orden: *sudo vi /etc/network/interfaces*
+Lo siguiente que tendremos que hacer una vez instalado Ubuntu server es editar la interface que están en la carpeta */etc/network/interfaces* . Para editar este archivo podemos utilizar la orden: *sudo vi /etc/network/interfaces*
 
-Aquí debemos añadir todas las lineas a partir del *"#The secundary network interface"* poniendo en la Máquina 1 y en la Máquina 2 diferentes valores para *address*. Yo he decidido que en la Máquina 1 sea de **192.168.56.110** y que en la Máquina 2 sea de **192.168.56.120**: 
+Aquí debemos añadir todas las líneas a partir del *"#The secundary network interface"* poniendo en la Máquina 1 y en la Máquina 2 diferentes valores para *address*. Yo he decidido que en la Máquina 1 sea de **192.168.56.110** y que en la Máquina 2 sea de **192.168.56.120**: 
 ![configuracion de interfaces](https://github.com/miguegonzalez/SWAP/blob/master/practica1/2.Editar_interface.PNG)
 
 ### 4. Ping M1 to M2
