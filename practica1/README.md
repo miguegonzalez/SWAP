@@ -9,7 +9,7 @@ Para empezar, debemos de crear dos máquinas virtuales. Yo las he llamado Swap_M
 
 ### 2. Instalación de Ubuntu Server
 
-La instalación de nuestra máquina virtual viene explicado perfectamente paso a paso en el siguiente enlace: [](http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html)
+La instalación de nuestra máquina virtual viene explicado perfectamente paso a paso en el siguiente enlace: [http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html](http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html)
 
 ### 3. Editar interfaces
 
