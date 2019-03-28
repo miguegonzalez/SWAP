@@ -35,4 +35,4 @@ Tras esto, vemos como todos los archivos de Swap_M1 que estaban en */var/www/* s
 
 Por último, tenemos que configurar crontab para que haga una tarea cada x tiempo. En mi caso, lo he configurado para que clone el directorio */var/www* de mi máquina Swap_M1 con el de mi máquina Swap_M2 todos los días a las 18:00h. Tras esto, se debe de reiniciar el crontab con *systemctl restart cron* para que funcione.
 
-![crontab](https://github.com/miguegonzalez/SWAP/blob/master/practica2/6.crontab.png)
+![crontab](https://github.com/miguegonzalez/SWAP/blob/master/practica2/6.crontab.PNG)
