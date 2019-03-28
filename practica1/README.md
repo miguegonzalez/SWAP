@@ -2,18 +2,18 @@
 
 ## Pasos a seguir
 
-### 1. Configuracion de Red
+### 1. Configuración de Red
 
 Para empezar, debemos de crear dos máquinas virtuales. Yo las he llamado Swap_M1 y Swap_M2. Antes de instalar Ubuntu Server en ambas máquinas tenemos que configurar la red quedando de la siguiente forma:
 ![configuracion de red](https://github.com/miguegonzalez/SWAP/blob/master/practica1/1.Configuracion_Red.PNG)
 
 ### 2. Instalación de Ubuntu Server
 
-La instalación de nuestra máquina virtual viene explicado perfectamente paso a paso en el siguiente enlace: [http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html](http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html)
+La instalación de nuestra máquina virtual viene explicado perfectamente paso a paso en el siguiente link: [http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html](http://www.ubuntugeek.com/step-by-step-ubuntu-12-04-precise-lamp-server-setup.html)
 
 ### 3. Editar interfaces
 
-Lo siguiente que tendremos que hacer una vez instalado Ubuntu server es editar la interface que están en la carpeta */etc/network/interfaces* . Para editar este archivo podemos utilizar la orden: *sudo vi /etc/network/interfaces*
+Una vez instalado Ubuntu Server, deberemos de editar el archivo interfaces que se encuentra en la carpeta */etc/network/interfaces* . Para editar este archivo podemos utilizar la orden: *sudo vi /etc/network/interfaces*
 
 Aquí debemos añadir todas las líneas a partir del *"#The secundary network interface"* poniendo en la Máquina 1 y en la Máquina 2 diferentes valores para *address*. Yo he decidido que en la Máquina 1 sea de **192.168.56.110** y que en la Máquina 2 sea de **192.168.56.120**: 
 ![configuracion de interfaces](https://github.com/miguegonzalez/SWAP/blob/master/practica1/2.Editar_interface.PNG)
