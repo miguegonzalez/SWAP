@@ -43,12 +43,12 @@ Ahora vamos a hacer prácticamente lo mismo que en el punto anterior. Primero co
 
 Ahora vamos a comprobar que funciona correctamente nuestro balanceador **Haproxy** haciendo *curl* desde nuestra 4ª máquina al dominio de nuestro balanceador, que, como había dicho antes, es *192.168.56.130*.
 
-![curl haproxy](https://github.com/miguegonzalez/SWAP/blob/master/practica3/7.haproxy_curl.png)
+![curl haproxy](https://github.com/miguegonzalez/SWAP/blob/master/practica3/8.haproxy_curl.png)
 
 Ahora lanzaré 1000 peticiones en unos segundos al balanceador para estresar el balanceador y divida las peticiones
 
-![haproxy Apache Benchmark](https://github.com/miguegonzalez/SWAP/blob/master/practica3/8.haproxy_ab.png)
+![haproxy Apache Benchmark](https://github.com/miguegonzalez/SWAP/blob/master/practica3/9.haproxy_ab.png)
 
-![haproxy Apache Benchmark resolve](https://github.com/miguegonzalez/SWAP/blob/master/practica3/9.haproxy_ab_resolve.png)
+![haproxy Apache Benchmark resolve](https://github.com/miguegonzalez/SWAP/blob/master/practica3/10.haproxy_ab_resolve.png)
 
 
