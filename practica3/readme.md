@@ -31,4 +31,24 @@ Ahora con la ayuda de la orden *ab* que pertenece a Apache Benchmark podremos la
 
 ![nginx Apache Benchmark](https://github.com/miguegonzalez/SWAP/blob/master/practica3/5.nginx_ab.png)
 
+![nginx Apache Benchmark resolve](https://github.com/miguegonzalez/SWAP/blob/master/practica3/6.nginx_ab_resolve.png)
+
+## 3. Haproxy
+
+Ahora vamos a hacer prácticamente lo mismo que en el punto anterior. Primero configuraremos el archivo de configuración de haproxy con *sudo vi /etc/haproxy/haproxy.cfg*. Se quedaría de la forma:
+
+![haproxy configuracion](https://github.com/miguegonzalez/SWAP/blob/master/practica3/7.haproxy_configuracion.PNG)
+
+
+
+Ahora vamos a comprobar que funciona correctamente nuestro balanceador **Haproxy** haciendo *curl* desde nuestra 4ª máquina al dominio de nuestro balanceador, que, como había dicho antes, es *192.168.56.130*.
+
+![curl haproxy](https://github.com/miguegonzalez/SWAP/blob/master/practica3/7.haproxy_curl.png)
+
+Ahora lanzaré 1000 peticiones en unos segundos al balanceador para estresar el balanceador y divida las peticiones
+
+![haproxy Apache Benchmark](https://github.com/miguegonzalez/SWAP/blob/master/practica3/8.haproxy_ab.png)
+
+![haproxy Apache Benchmark resolve](https://github.com/miguegonzalez/SWAP/blob/master/practica3/9.haproxy_ab_resolve.png)
+
 
