@@ -54,7 +54,7 @@ En nuestra máquina que utilizamos como balanceador copiaremos los archivos del 
 
 Y ahora editaremos el archivo */etc/nginx/conf.d/default.conf* . Quedaría de la forma siguiente:
 
-![Configuracion Nginx](https://github.com/miguegonzalez/SWAP/blob/master/practica4/3.Configuracion_Nginx.png)
+![Configuracion Nginx](https://github.com/miguegonzalez/SWAP/blob/master/practica4/3.Configuracion_Nginx.PNG)
 
 Para finalizar reiniciaremos Nginx (*sudo service nginx restart*).
 
