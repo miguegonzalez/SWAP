@@ -62,7 +62,7 @@ Ahora probaremos que va todo bien. Para ello utilizaremos **curl**.
 
 ![Certificate https](https://github.com/miguegonzalez/SWAP/blob/master/practica4/4.Certificate_https.png)
 
-![Funciona http y https](https://github.com/miguegonzalez/SWAP/blob/master/practica4/5.Funciona_http_y_https.png)
+![Funciona http y https](https://github.com/miguegonzalez/SWAP/blob/master/practica4/5.Funciona_http_y_https.PNG)
 
 ### 4. Cortafuegos a través de iptables
 
